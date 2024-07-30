@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Bar */
+nav {
+    font-size: 1em;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    float: none;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    flex-shrink: 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Sections */
+section {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    overflow-y: auto; /* Scroll only the section if necessary */
+}
+
+/* visited link */
+section a:visited {
+    color: #504d4d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    flex-shrink: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

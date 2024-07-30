@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #caabab;
+  }
+  
+  header {
+    background-color: #5b5858;
+    padding: 25px;
+  }
+  
+  nav {
+    font-size: 1.7em;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  main {
+    padding: 50px;
+    font-size: 1em;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+  }
+  
+  .container h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+  }
+  
+  .container p {
+    margin-top: 1px;
+    font-size: 1.7em;
+    margin-bottom: 25px;
+    margin-left: 20em;
+    margin-right: 20em;
+  }
+  
+  .btn {
+    font-size: larger;
+    background-color: #333; /* Fixed background color */
+    color: #fff; /* Added text color for contrast */
+    padding: 14px 25px; /* Added padding for better look */
+    border: none; /* Removed border for cleaner button style */
+    border-radius: 9px; /* Added border radius for rounded corners */
+    cursor: pointer; /* Added cursor for hover effect */
+  }
+
+  #about, #skills, #contact, #education {
+    text-align: center;
+    padding: 0px;
+    font-size: 1.7em;
+    margin-left: 13em; 
+    margin-right: 13em;
+}
+
